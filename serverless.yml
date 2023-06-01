@@ -1,0 +1,32 @@
+service: simple-serverless-project
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  region: ap-south-1
+
+functions:
+  api:
+    handler: index.handler
+    description: this is simple handler
+    events:
+      - httpApi:
+          method: GET
+          path: /simple
+
+  user:
+    handler: index.getUser
+    description: this is function to get user
+    events:
+      - http:
+          method: GET
+          path: /user/{ID}
+
+# resources:
+#   Resources:
+#     buckets3:
+#       Type: AWS::S3::Bucket
+#       Properties:
+#         BucketName: my-bucket-name

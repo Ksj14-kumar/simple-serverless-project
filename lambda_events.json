@@ -1,0 +1,93 @@
+{
+    "resource": "/user/{ID}",
+    "path": "/user/1",
+    "httpMethod": "GET",
+    "headers": {
+      "Accept": "*/*",
+      "CloudFront-Forwarded-Proto": "https",
+      "CloudFront-Is-Desktop-Viewer": "true",
+      "CloudFront-Is-Mobile-Viewer": "false",
+      "CloudFront-Is-SmartTV-Viewer": "false",
+      "CloudFront-Is-Tablet-Viewer": "false",
+      "CloudFront-Viewer-ASN": "55836",
+      "CloudFront-Viewer-Country": "IN",
+      "Host": "jj8ab222d9.execute-api.ap-south-1.amazonaws.com",
+      "User-Agent": "curl/7.80.0",
+      "X-Forwarded-For": "132.154.48.64, 18.68.17.11",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "CloudFront-Forwarded-Proto": [
+        "https"
+      ],
+      "CloudFront-Is-Desktop-Viewer": [
+        "true"
+      ],
+      "CloudFront-Is-Mobile-Viewer": [
+        "false"
+      ],
+      "CloudFront-Is-SmartTV-Viewer": [
+        "false"
+      ],
+      "CloudFront-Is-Tablet-Viewer": [
+        "false"
+      ],
+      "CloudFront-Viewer-ASN": [
+        "55836"
+      ],
+      "CloudFront-Viewer-Country": [
+        "IN"
+      ],
+      "X-Forwarded-For": [
+        "132.154.48.64, 18.68.17.11"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": {
+      "ID": "1"
+    },
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "iq699c",
+      "resourcePath": "/user/{ID}",
+      "httpMethod": "GET",
+      "extendedRequestId": "F11scEgChcwFuJA=",
+      "requestTime": "01/Jun/2023:13:27:17 +0000",
+      "path": "/dev/user/1",
+      "accountId": "604572386623",
+      "protocol": "HTTP/1.1",
+      "stage": "dev",
+      "domainPrefix": "jj8ab222d9",
+      "requestTimeEpoch": 1685626037748,
+      "requestId": "5819ad0a-4bad-473a-8e09-6273c40fd3e0",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "132.154.48.64",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "curl/7.80.0",
+        "user": null
+      },
+      "domainName": "jj8ab222d9.execute-api.ap-south-1.amazonaws.com",
+      "apiId": "jj8ab222d9"
+    },
+    "body": null,
+    "isBase64Encoded": false
+  }
